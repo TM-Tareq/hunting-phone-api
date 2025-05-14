@@ -4,8 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hunting Phone Api</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
-    <data value=""></data>
+    <header>
+        <h2  class="text-6xl">Hunting Phone</h2>
+    </header>
+    <main class="container mx-auto mt-8">
+
+        <section class="bg-gray-300 p-4 m-4 text-center align-middle">
+            <input type="text" class="input" placeholder="Search Your desire" list="browsers" />
+            <button class="btn btn-success">Search</button>
+        </section>
+        <!-- search result -->
+        <section>
+            <div id="phone-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+
+
+    <!-- scripts section -->
+     <script src="./js/phone.js"></script>
 </body>
 </html>
